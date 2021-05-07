@@ -1,6 +1,6 @@
 # ToDoList-ReactApp
 
-> My 1st React App, making a simple To-Do List
+> **My 1st _React App_, making a simple _To-Do List_**
 
 Just Created a Basic ToDo List, using React. 
 made this Responsive and also made it look as much good as possible using CSS. 
