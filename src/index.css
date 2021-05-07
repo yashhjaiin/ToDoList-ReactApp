@@ -26,6 +26,7 @@ code {
   text-align: center;
 }
 .middle_div{
+  overflow: hidden;
   width: 30%;
   height: 80vh;
   background-color: rgb(218, 190, 199); 
@@ -51,6 +52,7 @@ input{
   font-size: large;
   font-weight: bold;
   outline: none;
+  margin-bottom: 2rem;
   border-bottom: 4px solid whitesmoke;
 }
 
@@ -74,6 +76,33 @@ button:hover{
   background-color: rgb(21, 145, 58);
 }
 
+.sc{
+  height: 58.5vh;
+  /* border: 2px solid red; */
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 1rem;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(93, 96, 141); 
+  border-radius: 1rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2c355c; 
+}
+
 ol li{
   margin: 0 0 0 3rem;
   display: flex;
@@ -85,12 +114,12 @@ ol li{
 }
 
 .displayStyle{
-  margin-top: 3rem;
+  margin-top: 1rem;
   display: flex;
   flex-direction: row;
   justify-content: left;
   align-items: center;
-  text-align: center;
+  text-align: left;
   /* border: 2px solid red; */
 }
 
@@ -100,7 +129,7 @@ ol li{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 0 0 3.5rem;
+  margin: 0 0 0 2rem;
 }
 
 .fa:hover{
