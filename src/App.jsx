@@ -27,20 +27,22 @@ const App = () => {
     return(
     <>  
         <div className="upper_div">
-            <div className="middle_div">
+            <div className="middle_div">                
                 <h1> To-Do List </h1>
                 <input type="text" placeholder="Add Items" onChange={addValue} value={value} required/> 
                 <button onClick={addItem}> + </button>
-                <ol>
-                    {list.map((items, index) => {
-                        return <ToList
-                                key = {index}
-                                id = {index}
-                                text = {items}
-                                conect = {deleteItem}
-                                />
-                    })}
-                </ol>
+                <div className='sc'>
+                    <ol>
+                        {list.map((items, index) => {
+                            return <ToList
+                                    key = {index}
+                                    id = {index}
+                                    text = {items}
+                                    conect = {deleteItem}
+                                    />
+                        })}
+                    </ol>
+                </div>
             </div>
         </div>
     </>
