@@ -18,7 +18,7 @@ const App = () => {
     const addItem = () => {
 
         // Asigning id using count by incrementing state
-        // setCount(count + 1);
+        // setCount(count +1);
         // let tempList = list.concat({ id : count, name : value});
 
         // Asigning id using uuid
