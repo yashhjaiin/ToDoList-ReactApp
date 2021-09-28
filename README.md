@@ -12,4 +12,4 @@ made this Responsive and also made it look as much good as possible using CSS.
 
 MoreOver Made Some UserInterFace Changes that one would Like.
 
-However it goes A project is still a project ..  😉🥳
+However it goes, A project is still a project ..  😉🥳
